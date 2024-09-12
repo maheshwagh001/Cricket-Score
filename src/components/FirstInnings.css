@@ -1,0 +1,156 @@
+/* first-innings-container */
+.first-innings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 2rem auto; /* Center the container horizontally */
+    max-width: 600px; /* Adjust max-width as needed */
+  }
+  
+
+  
+  /* stats-container */
+  .stats-container {
+    /* display: flex; */
+    /* width: fit-content; */
+    justify-content: space-between;
+    width: 100%; /* Match container width */
+  }
+  
+  /* stats */
+  .stats {
+    /* display: flex;
+    width: fit-content;
+    margin: 5% 25%;
+    padding: 5% 5%;
+    text-align: center; */
+    text-align: center;  
+    margin: 0% 30%;
+    padding: 2% 5%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: #caf374; */
+    border-radius: 10px;
+  }
+  .stats2 {
+    /* display: flex;
+    width: fit-content;
+    margin: 5% 25%;
+    padding: 5% 5%;
+    text-align: center; */
+    text-align: center;
+    display: flex;
+    /* width: auto; */
+    margin: 0 25%;
+    padding: 0 5%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: #caf374; */
+    border-radius: 10px;
+  }
+  
+  /* Score, Over, Wicket headings */
+  .stats-container h2 {
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-bottom: 0.5rem; /* Add some space */
+  }
+  
+  /* Score, Over, Wicket values */
+  .stats-container h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin: 0; /* Remove default margins */
+  }
+  
+  .score {
+    color: #3f51b5; /* Match button color (or adjust) */
+  }
+  
+  /* buttons */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    gap: 2rem; /* Spacing between buttons */
+    margin: auto; /* Add space after stats */
+  }
+  
+  button {
+    margin: 2rex auto;
+    padding: 1rem 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer; /* Indicate interaction on hover */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #65f05c;
+    border-color: black; /* Match button color (or adjust) */
+  }
+  
+  
+  
+  /* show-scorecard */
+  .show-scorecard {
+    margin-top: 1rem;
+  }
+  
+  .wicket:disabled{
+    background-color: rgb(246, 95, 95);
+  }
+  .wicket:disabled:hover{
+    background-color: rgb(246, 95, 95);
+    cursor:not-allowed;
+  }
+  /*  */
+ 
+  
+  
+  /*  */
+  .showscorecard{
+    /* text-align: center;   */
+    /* height:  */
+    margin: 0% 10px;
+    padding: 3% 5%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: #caf374; */
+    border-radius: 10px;
+  }
+  
+  .showscorecard button{
+    /* text-align: center;   */
+    /* height:  */
+    margin: 0% 10%;
+    padding: 3% 5%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: #caf374; */
+    border-radius: 10px;
+  }
+  
+  .over-info {
+    /* text-align: center;   */
+    margin: 0% 5%;
+    padding: 0.1% 5%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: #caf374; */
+    border-radius: 10px;
+  }
+  
+  .declear-innings{
+    padding: 1rem 1.5rem;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer; /* Indicate interaction on hover */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Smooth transitions */
+  }

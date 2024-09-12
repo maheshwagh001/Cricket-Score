@@ -1,0 +1,83 @@
+/* toss-container */
+.toss-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 2rem auto; /* Center the container horizontally */
+    max-width: 400px; /* Optional: Set a maximum width */
+  }
+  
+  /* h2 (Toss) */
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center; /* Center align heading */
+  }
+  
+  /* Form and input fields */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Spacing between form elements */
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Adjust font size as needed */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition on focus */
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #3f51b5; /* Change border color on focus */
+  }
+  
+  /* Button */
+  button[type="submit"] {
+    padding: 1rem 2rem;
+    /* Primary color */
+    color: black;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Adjust font size as needed */
+    cursor: pointer; /* Indicate interaction on hover */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #65f05c; /* Darker shade on hover */
+  }
+  
+  /* Results section */
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Smaller gap for results */
+    margin-top: 2rem; /* Add some space after form */
+  }
+  
+  p {
+    font-size: 1.1rem; /* Adjust font size as needed */
+    margin: 0; /* Remove default margins */
+  }
+  
+  /* Link (Start First Innings) */
+  a.start-innings { /* Add a class for styling */
+    text-decoration: none; /* Remove underline */
+    color: #3f51b5; /* Match button color */
+    font-weight: bold; /* Emphasize link text */
+    transition: color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  a.start-innings:hover {
+    color: #28377d; /* Darker shade on hover */
+  }
+  
